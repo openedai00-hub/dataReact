@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Also ignore any nested node_modules folders
+**/node_modules/
+
+# Lock files
+package-lock.json
+
+# Ignore package-lock files in workspaces (client/server)
+**/package-lock.json
+
